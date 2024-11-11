@@ -1,0 +1,14 @@
+.black-element,
+.yellow-element{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", serif;
+}
+
+.yellow-element{
+    background-color: yellow;
+}
+
+.black-element{
+    background-color:black;
+    color: aliceblue;
+}

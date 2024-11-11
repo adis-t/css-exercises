@@ -5,13 +5,53 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
 }
 
+.plants{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  gap: 100px;
+}
+
+.barberry{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;  
+}
+
+.chilli{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.pepper{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.saffron{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.text{text-align: center;}
 /* do not edit this footer */
 .footer {
   position: fixed;
